@@ -124,7 +124,7 @@ local function set_groups()
         Macro = {fg = c.blue}, -- same as Define
         Typedef = {fg = c.cyan}, -- A typedef
         PreCondit = {fg = c.cyan}, -- preprocessor #if, #else, #endif, etc.
-        Special = {fg = c.blue, bg = c.none, style = "italic"}, -- any special symbol
+        Special = {fg = c.blue, bg = c.none}, -- any special symbol
         SpecialChar = {fg = c.orange}, -- special character in a constant
         Tag = {fg = c.red}, -- you can use CTRL-] on this
         Delimiter = {fg = c.yellow}, -- character that needs attention like , or .
